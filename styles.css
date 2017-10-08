@@ -1,50 +1,85 @@
+.Background{
+  box-sizing: context-box;
+  width: 600px;
+  height:1500px;
+   margin: auto;
+  background-image: url(https://previews.123rf.com/images/transiastock/transiastock1304/transiastock130400009/19057581-Abstract-tribal-pattern-Stock-Vector-floral.jpg);
+   background-size:contain;
+}
+.r{
+    position: absolute;
+    box-sizing: content-box-box;
+
+}
+
 *{
   font-size: 18px;
   line-height: 20px;
-  font-family: sans-serif;
+  font-family: arial;
+
+
 }
+
+#spacer-1{
+  box-sizing: border-box;
+  top: 500px
+  height: 180px;
+
+}
+
+#top{
+  box-sizing: content-box-box;
+  width: 67%;
+  top: 100px;
+  left: 250px;
+  background-color:LightSkyBlue;
+  opacity: 50%;
+}
+
+#Education{
+  box-sizing: content-box-box;
+  width: 67%;
+  top: 600px;
+  left: 250px;
+  background-color:LightSkyBlue;
+  opacity: 50%;
+}
+
+#Header{
+  top: 30px;}
+
 h1{
  font-family: arial;
 font-size: 40px
 }
-#top{
 
-  box-sizing: border-box;
-  width: 65%;
-  top: 100px;
-  left:100px;
-  margin-left: auto ;
-  margin-right: auto ;
-  background-color: pink;
-  opacity: 50%;
-}
-#Header{
-
-  background-color: red;
-  top: 30px;
-}
 .my-image{
   position: relative;
   float: right;
-  background-color: green;
-  box-sizing: border-box;
-  width: 25%;
+  background-color: Red ;
+  box-sizing: content-box;
+  width: 26%;
   padding: 10px;
   border-width: 10px;
-  right: 120px;
-
+  right: 20px;
+  top:-100px;
+   transform: rotate(-7deg);
 }
 image{
-  height: 40%;
+  height: 100px;
   width: auto;
 }
 
 #About-Me{
-  background-color: grey;
+  border-style: solid;
+  color: white;
+  text-decoration-color: red;
+  background-color: DarkSlateGrey ;
   box-sizing: content-box;
-  width: 58%;
+  width: 65%;
   padding: 5px;
   border-width: 10px;
+
 
 }
 
