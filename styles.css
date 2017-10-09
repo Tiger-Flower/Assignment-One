@@ -33,16 +33,29 @@
   width: 67%;
   top: 100px;
   left: 250px;
+  height: 430px;
   background-color:LightSkyBlue;
-  opacity: 50%;}
+  opacity: 50%;
+}
 
+#Education p{
+  width: 400px;
+}
+
+h2{
+  width: 200px
+}
 #Education{
   box-sizing: content-box-box;
   width: 67%;
-  top: 550px;
+  top: 600px;
   left: 250px;
   background-color:LightSkyBlue;
   opacity: 60%;
+
+}
+#Skill,p{
+  width: 500px;
 }
 
 #Skills{
@@ -55,9 +68,31 @@
   opacity: 60%;
 }
 
+#Work-Experience{
+  box-sizing: content-box-box;
+  width: 67%;
+  top: 990px;
+  left: 250px;
+  height: 130px;
+  background-color:LightSkyBlue;
+  opacity: 60%;
+}
+
+#Hobbies{
+  box-sizing: content-box-box;
+  width: 67%;
+  top: 1230px;
+  left: 250px;
+  height: 130px;
+  background-color:LightSkyBlue;
+  opacity: 60%;
+}
+
+
 .child_div,.left-Border{
      border-left: thick double #ff0000;
      padding-left: 24px;
+
 }
 .child_div{
   color: white;
