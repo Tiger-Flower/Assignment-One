@@ -1,7 +1,7 @@
 .Background{
   box-sizing: context-box;
   width: 600px;
-  height:2000px;
+  height:1600px;
    margin: auto;
   background-image: url(https://previews.123rf.com/images/transiastock/transiastock1304/transiastock130400009/19057581-Abstract-tribal-pattern-Stock-Vector-floral.jpg);
    background-size:contain;
@@ -52,11 +52,9 @@ h2{
   left: 250px;
   background-color:LightSkyBlue;
   opacity: 60%;
+  height: 120px;
+}
 
-}
-#Skill,p{
-  width: 500px;
-}
 
 #Skills{
   box-sizing: content-box-box;
@@ -73,7 +71,7 @@ h2{
   width: 67%;
   top: 990px;
   left: 250px;
-  height: 130px;
+  height: 110px;
   background-color:LightSkyBlue;
   opacity: 60%;
 }
@@ -81,13 +79,22 @@ h2{
 #Hobbies{
   box-sizing: content-box-box;
   width: 67%;
-  top: 1230px;
+  top: 1210px;
   left: 250px;
-  height: 130px;
+  height: 140px;
   background-color:LightSkyBlue;
   opacity: 60%;
 }
 
+#References{
+  box-sizing: content-box-box;
+  width: 67%;
+  top: 1210px;
+  left: 250px;
+  height: 230px;
+  background-color:LightSkyBlue;
+  opacity: 60%;
+}
 
 .child_div,.left-Border{
      border-left: thick double #ff0000;
@@ -147,4 +154,8 @@ image{
 image{
   width: 100%;
   height: auto;
+}
+
+p{
+  width: 500px;
 }
